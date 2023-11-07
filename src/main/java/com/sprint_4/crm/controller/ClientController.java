@@ -50,9 +50,9 @@ public class ClientController {
 		return clientService.deleteClient(id);
 	}
 
-	@GetMapping("/getClients/name/{name}")
-	public ResponseEntity<Client> getClient(@PathVariable String name) {
-		return ResponseEntity.ok(clientService.getClientByName(name));
-	}
+//	@GetMapping("/getClients/name/{name}")
+//	public ResponseEntity<Client> getClient(@PathVariable String name) {
+//		return ResponseEntity.ok(clientService.getClientByName(name));
+//	}
 
 }

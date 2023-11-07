@@ -10,10 +10,10 @@ import java.util.List;
 
 public interface ClientRepository extends JpaRepository<Client, Long>{
 
-    @Query("SELECT c FROM Client c WHERE c.clientName = :clientName")
-    Client findByNome(@Param("clientName") String clientName);
-
-    Client findByNomee(String nome);
+//    @Query("SELECT c FROM Client c WHERE c.clientName = :clientName")
+//    Client findByNome(@Param("clientName") String clientName);
+//
+//    Client findByNomee(String nome);
 
 
 }

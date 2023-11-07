@@ -60,8 +60,8 @@ public class ClientService {
     }
 
 
-    public Client getClientByName(String clientName) {
-        return clientRepository.findByNome(clientName);
-    }
+//    public Client getClientByName(String clientName) {
+//        return clientRepository.findByNome(clientName);
+//    }
 
 }
